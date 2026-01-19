@@ -9,8 +9,8 @@ Finding the right locator is often the hardest part of automation. Copilot Chat 
 
 ## Copilot Chat
 Instead of just Ghost Text, you can ask Copilot questions.
-- Open the Chat view in the sidebar.
-- Or use `Ctrl + I` (Windows/Linux) / `Cmd + I` (Mac) inline in the editor.
+- Open the Chat view in the sidebar (`Ctrl + Alt + I` on Windows/Linux or `Cmd + Ctrl + I` on Mac).
+- Or use `Ctrl + I` (Windows/Linux) / `Cmd + I` (Mac) for inline chat.
 
 ## Exercise
 1. Open `tests/module-02/exercise.spec.ts`.
@@ -19,13 +19,13 @@ Instead of just Ghost Text, you can ask Copilot questions.
 4. Accept the suggestion (Tab).
 
 ## Handling Errors
-You might encounter an error like:
-`Error: locator.fill: Error: strict mode violation: locator('input[placeholder="Search"]') resolved to 2 elements`
+The generated test might fail. For example:
+- **Strict mode violation:** finding multiple elements (e.g., desktop vs mobile search inputs).
+- **Timeout:** element not found or not visible.
+- **Assertion error:** search results not matching.
 
-This happens because there are multiple search inputs on the page (desktop and mobile).
-
-**Task:** Use Copilot Chat to fix this.
-1. Select the failing code or the error message.
-2. Open Chat (`Ctrl+I`).
-3. Ask: "The test fails because there are multiple search inputs. How do I target only the visible search input?"
+**Task:** Use Copilot Chat to fix the test.
+1. Select the failing code or the error message from the terminal.
+2. Open the full Chat view (`Ctrl + Alt + I`).
+3. Ask: "Run and fix this playwright test."
 4. Apply the fix suggestions.

@@ -20,14 +20,15 @@ Since we are in a Dev Container, the browser runs in **headless mode** (invisibl
 2. Expand the `tests` folder to find `Module 03: Debugging`.
 3. Right-click the test and select **Debug Test**.
 
-### Step 2: Setting Breakpoints
+### Step 2: Setting Breakpoints & Stepping
 1. Open the test file `tests/module-03/exercise.spec.ts`.
-2. Locate step 5 (the "Privacy Polllicy" click).
+2. Locate the **first step** of the test (checking the page title).
 3. Click in the left margin (gutter) next to the line number to set a red dot (breakpoint).
 4. Run "Debug Test" again.
 5. The execution will pause at the dot.
-6. Hover over variables to inspect them, or look at the **Run and Debug** sidebar to see the call stack.
-7. Use the floating toolbar to **Step Over (F10)** and see the failure happen.
+6. Use the floating toolbar to **Step Over (F10)** repeatedly.
+7. Watch the test execution move line by line until you reach Step 5 (Privacy Policy).
+8. Step over the click action and observe the failure.
 
 ### Step 3: Fixing with AI
 1. Once you identify the typo in the locator text.
