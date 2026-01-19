@@ -6,16 +6,29 @@ This repository is a training ground for Digital Health and Care Wales (DHCW) Te
 
 ### 1. Launch Codespace or Dev Container
 This project is configured with a `.devcontainer`.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dhcw/playwright-training/?quickstart=1)
+
+**Note:** On the first launch, the Codespace environment can take 5+ minutes to be fully initialized as it downloads and installs the tools, web browser engines, etc. Subsequent launches will be faster.
+
 - **VS Code**: Reopen in Container.
 - **GitHub**: Open in Codespaces.
-- The environment will automatically install Node.js (LTS), Playwright browsers, and VS Code extensions.
+
+Wait for the terminal to show:
+`👋 Welcome to Codespaces! You are on a custom image defined in your devcontainer.json file.`
 
 ### 2. Verify Installation
 Open a terminal (Ctrl+`) and run:
 ```bash
 npx playwright test
 ```
-(Some tests are empty skeletons and might be skipped or fail—this is expected! Module 04 should pass).
+
+Expected output:
+```bash
+Running 4 tests using 1 worker
+  4 passed (19.2s)
+```
+(Note: The number of tests passed may vary depending on how many exercises you have completed. Module 04 should pass out of the box).
 
 ## Curriculum
 
@@ -23,7 +36,7 @@ The training is broken down into modules found in the `/docs` directory.
 
 - **[Module 01: Basics](/docs/module-01-basics.md)** - Setting up and your first AI-generated test.
 - **[Module 02: Locators](/docs/module-02-locators.md)** - Using Copilot Chat to find robust `getByRole` selectors.
-- **[Module 03: Accessibility](/docs/module-03-a11y.md)** - Automated WCAG testing with `@axe-core/playwright`.
+- **[Module 03: Debugging](/docs/module-03-debugging.md)** - Debugging tests in VS Code.
 - **[Module 04: Refactoring](/docs/module-04-refactoring.md)** - Cleaning up legacy code with AI.
 
 ## Workflow
@@ -40,7 +53,12 @@ The training is broken down into modules found in the `/docs` directory.
 Copilot is a "Co-pilot", not the "Auto-pilot". You are the Pilot.
 - **Verify**: Always run the code. AI can hallucinate selectors that don't exist.
 - **Understand**: Do not commit code you do not understand. Ask Copilot to explain it (`/explain`).
-- **Security**: Be mindful of pasting sensitive data into Chat, though DHCW Enterprise copilot settings may mitigate this.
+- **Security**: Do NOT paste sensitive or real patient data into Chat. Ensure all test data is synthetic.
+
+## Reference Guides
+- [Playwright Documentation](https://playwright.dev/docs/intro)
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [VS Code Playwright Extension](https://playwright.dev/docs/getting-started-vscode)
 
 ## Coding Standards
 

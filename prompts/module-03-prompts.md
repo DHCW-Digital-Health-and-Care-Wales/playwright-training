@@ -1,19 +1,11 @@
-# Module 03 Prompts
-
-## Ghost Text Triggers
-
-```typescript
-// Run an accessibility scan using axe-core
-```
-
-```typescript
-// Check for WCAG 2.1 AA violations
-```
+# Module 03 Prompts (Debugging)
 
 ## Chat Prompts
 
-> "How do I install and configure @axe-core/playwright?"
+> "Why did this test fail with a timeout?"
 
-> "Write a test that checks the homepage for accessibility violations and fails if any are found."
+> "Explain how to use the VS Code debugger with Playwright."
 
-> "How can I exclude a specific rule (like 'color-contrast') from the Axe scan?"
+> "What does `await page.pause()` do?"
+
+> "My test is flaky. How can I debug it?"
