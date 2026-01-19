@@ -26,9 +26,15 @@ npx playwright test
 Expected output:
 ```bash
 Running 4 tests using 1 worker
-  4 passed (19.2s)
+  1 failed
+    [chromium] › tests/module-03/exercise.spec.ts:3:5 › Module 03: Debugging ───────────────────────
+  3 passed (26.9s)
+
+To open last HTML report run:
+
+  npx playwright show-report
 ```
-(Note: The number of tests passed may vary depending on how many exercises you have completed. Module 04 should pass out of the box).
+(Note: The failure in Module 03 is **expected**! The training exercise involves debugging and fixing this specific test).
 
 ## Curriculum
 

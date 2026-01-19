@@ -4,22 +4,22 @@
   "description": "Training environment for DHCW Test Engineers using Playwright and GitHub Copilot",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dhcw/playwright-training.git"
+    "url": "git+https://github.com/collisdigital/playwright-training.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/collisdigital/playwright-training/issues"
   },
   "homepage": "https://github.com/collisdigital/playwright-training#readme",
   "devDependencies": {
-    "@axe-core/playwright": "^4.11.0",
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.9",
     "playwright": "^1.57.0",
