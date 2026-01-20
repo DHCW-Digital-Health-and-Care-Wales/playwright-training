@@ -7,7 +7,7 @@ This repository is a training ground for Digital Health and Care Wales (DHCW) Te
 ### 1. Launch Codespace or Dev Container
 This project is configured with a `.devcontainer`.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dhcw/playwright-training/?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DHCW-Digital-Health-and-Care-Wales/playwright-training/?quickstart=1)
 
 **Note:** On the first launch, the Codespace environment can take 5+ minutes to be fully initialized as it downloads and installs the tools, web browser engines, etc. Subsequent launches will be faster.
 
