@@ -15,7 +15,11 @@ project's `.devcontainer` configuration, you'll get a ready-to-use
 environment with Node.js, Playwright, browsers, and all dependencies
 automatically installed.
 
-To get started (this will open a new browser tab):
+To get started:
+
+* Click the `Open in GitHub Codespaces` button below
+* If this is your first time choose `Create new codespace` when prompted.
+* If you are returning you can choose an existing Codespace from the `Previous session found` list.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DHCW-Digital-Health-and-Care-Wales/playwright-training/?quickstart=1)
 
@@ -23,7 +27,7 @@ To get started (this will open a new browser tab):
 to be fully initialized as it downloads and installs the tools, web browser
 engines, etc. Subsequent launches will be faster.
 
-Wait for the terminal to show:
+If you created a new Codespace, wait for the terminal to show:
 
 ```bash
 👋 Welcome to Codespaces! You are on a custom image defined in your devcontainer.json file.
