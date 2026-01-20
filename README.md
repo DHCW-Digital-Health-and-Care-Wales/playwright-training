@@ -44,6 +44,7 @@ The training is broken down into modules found in the `/docs` directory.
 - **[Module 02: Locators](/docs/module-02-locators.md)** - Using Copilot Chat to find robust `getByRole` selectors.
 - **[Module 03: Debugging](/docs/module-03-debugging.md)** - Debugging tests in VS Code.
 - **[Module 04: Refactoring](/docs/module-04-refactoring.md)** - Cleaning up legacy code with AI.
+- **[Module 05: Build Your Own](/docs/module-05-build-your-own.md)** - Generate a complete test from scratch using Copilot Chat.
 
 ## Workflow
 
